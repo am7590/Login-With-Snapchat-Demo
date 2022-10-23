@@ -11,6 +11,8 @@
 		2989B6162905CE4F00F7182A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989B6152905CE4F00F7182A /* ContentView.swift */; };
 		2989B6182905CE5000F7182A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2989B6172905CE5000F7182A /* Assets.xcassets */; };
 		2989B61B2905CE5000F7182A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2989B61A2905CE5000F7182A /* Preview Assets.xcassets */; };
+		2989B6232905DA2500F7182A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989B6222905DA2500F7182A /* ViewController.swift */; };
+		D7678D9D05F4FC5B4E9EF369 /* Pods_SnapchatLoginDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BCE00AFBFB37BA813C3D49 /* Pods_SnapchatLoginDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,11 @@
 		2989B6152905CE4F00F7182A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2989B6172905CE5000F7182A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2989B61A2905CE5000F7182A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2989B6212905D51900F7182A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2989B6222905DA2500F7182A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33BCE00AFBFB37BA813C3D49 /* Pods_SnapchatLoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatLoginDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896E7B751C3443534A368F34 /* Pods-SnapchatLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatLoginDemo.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D378A54D004D133747606BE8 /* Pods-SnapchatLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatLoginDemo.release.xcconfig"; path = "Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7678D9D05F4FC5B4E9EF369 /* Pods_SnapchatLoginDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +45,8 @@
 			children = (
 				2989B6122905CE4F00F7182A /* SnapchatLoginDemo */,
 				2989B6112905CE4F00F7182A /* Products */,
+				720ACADE19ADE6D89FC45E29 /* Pods */,
+				9F25D043F15A1118213FF3F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +61,10 @@
 		2989B6122905CE4F00F7182A /* SnapchatLoginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2989B6212905D51900F7182A /* Info.plist */,
 				2989B6132905CE4F00F7182A /* SnapchatLoginDemoApp.swift */,
 				2989B6152905CE4F00F7182A /* ContentView.swift */,
+				2989B6222905DA2500F7182A /* ViewController.swift */,
 				2989B6172905CE5000F7182A /* Assets.xcassets */,
 				2989B6192905CE5000F7182A /* Preview Content */,
 			);
@@ -67,6 +79,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		720ACADE19ADE6D89FC45E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				896E7B751C3443534A368F34 /* Pods-SnapchatLoginDemo.debug.xcconfig */,
+				D378A54D004D133747606BE8 /* Pods-SnapchatLoginDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F25D043F15A1118213FF3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33BCE00AFBFB37BA813C3D49 /* Pods_SnapchatLoginDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2989B61E2905CE5000F7182A /* Build configuration list for PBXNativeTarget "SnapchatLoginDemo" */;
 			buildPhases = (
+				8B21CA63B116C78B3E8B771F /* [CP] Check Pods Manifest.lock */,
 				2989B60C2905CE4F00F7182A /* Sources */,
 				2989B60D2905CE4F00F7182A /* Frameworks */,
 				2989B60E2905CE4F00F7182A /* Resources */,
+				BAB569BEEF6452DA56B7553A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B21CA63B116C78B3E8B771F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapchatLoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB569BEEF6452DA56B7553A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2989B60C2905CE4F00F7182A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2989B6232905DA2500F7182A /* ViewController.swift in Sources */,
 				2989B6162905CE4F00F7182A /* ContentView.swift in Sources */,
 				2989B6142905CE4F00F7182A /* SnapchatLoginDemoApp.swift in Sources */,
 			);
@@ -261,6 +335,7 @@
 		};
 		2989B61F2905CE5000F7182A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896E7B751C3443534A368F34 /* Pods-SnapchatLoginDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +345,7 @@
 				DEVELOPMENT_TEAM = 7W5ZSCHZ2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapchatLoginDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +366,7 @@
 		};
 		2989B6202905CE5000F7182A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D378A54D004D133747606BE8 /* Pods-SnapchatLoginDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +376,7 @@
 				DEVELOPMENT_TEAM = 7W5ZSCHZ2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapchatLoginDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
