@@ -2,22 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleTypeRole</key>
-            <string>Editor</string>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>alek</string>
-            </array>
-        </dict>
-    </array>
-	<key>LSApplicationQueriesSchemes</key>
+	<key>CFBundleURLTypes</key>
 	<array>
-		<string>itms-apps</string>
-		<string>snapchat</string>
-		<string>bitmoji-sdk</string>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>alek</string>
+			</array>
+		</dict>
 	</array>
 	<key>SCSDKClientId</key>
 	<string>bc716617-ee2b-4002-b960-9e36985a3e66</string>
@@ -28,6 +22,10 @@
 		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
 		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
 		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>snapchat</string>
 	</array>
 </dict>
 </plist>

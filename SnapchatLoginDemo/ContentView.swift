@@ -10,9 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
             MyView()
         }
         .padding()
@@ -31,7 +28,6 @@ struct MyView: UIViewControllerRepresentable {
     
     func makeUIViewController(context: Context) -> ViewController {
         let vc = ViewController()
-        // Do some configurations here if needed.
         return vc
     }
     

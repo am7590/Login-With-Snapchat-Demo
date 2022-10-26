@@ -28,7 +28,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        
-        return SCSDKLoginClient.application(app, open: url, options: options)
+        print("open url")
+        let result = SCSDKLoginClient.application(app, open: url, options: options)
+        print(result)
+        return result
     }
 }

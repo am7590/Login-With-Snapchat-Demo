@@ -12,6 +12,7 @@
 		2989B6182905CE5000F7182A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2989B6172905CE5000F7182A /* Assets.xcassets */; };
 		2989B61B2905CE5000F7182A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2989B61A2905CE5000F7182A /* Preview Assets.xcassets */; };
 		2989B6232905DA2500F7182A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989B6222905DA2500F7182A /* ViewController.swift */; };
+		2989B625290625AC00F7182A /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989B624290625AC00F7182A /* UserEntity.swift */; };
 		D7678D9D05F4FC5B4E9EF369 /* Pods_SnapchatLoginDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BCE00AFBFB37BA813C3D49 /* Pods_SnapchatLoginDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		2989B61A2905CE5000F7182A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2989B6212905D51900F7182A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2989B6222905DA2500F7182A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2989B624290625AC00F7182A /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		33BCE00AFBFB37BA813C3D49 /* Pods_SnapchatLoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatLoginDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		896E7B751C3443534A368F34 /* Pods-SnapchatLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatLoginDemo.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D378A54D004D133747606BE8 /* Pods-SnapchatLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatLoginDemo.release.xcconfig"; path = "Target Support Files/Pods-SnapchatLoginDemo/Pods-SnapchatLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				2989B6132905CE4F00F7182A /* SnapchatLoginDemoApp.swift */,
 				2989B6152905CE4F00F7182A /* ContentView.swift */,
 				2989B6222905DA2500F7182A /* ViewController.swift */,
+				2989B624290625AC00F7182A /* UserEntity.swift */,
 				2989B6172905CE5000F7182A /* Assets.xcassets */,
 				2989B6192905CE5000F7182A /* Preview Content */,
 			);
@@ -213,6 +216,7 @@
 				2989B6232905DA2500F7182A /* ViewController.swift in Sources */,
 				2989B6162905CE4F00F7182A /* ContentView.swift in Sources */,
 				2989B6142905CE4F00F7182A /* SnapchatLoginDemoApp.swift in Sources */,
+				2989B625290625AC00F7182A /* UserEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
